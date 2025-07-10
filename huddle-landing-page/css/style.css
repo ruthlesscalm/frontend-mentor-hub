@@ -39,6 +39,7 @@ body {
 header {
     padding: clamp(30px, 4vw, 50px) clamp(15px, 4vw, 50px)
         clamp(25px, 3vw, 40px);
+    display: flex;
 }
 header img {
     width: clamp(140px , 25vw , 240px);
