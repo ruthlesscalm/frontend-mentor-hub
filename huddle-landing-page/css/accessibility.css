@@ -1,0 +1,59 @@
+:root {
+    --accent-color: #cecece;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0;
+    margin: -1px;
+    border: 0;
+    clip-path: inset(-50%);
+}
+.skip-link {
+    top: 0;
+    left: 0;
+}
+.skip-link:focus {
+    position: fixed;
+    width: auto;
+    height: auto;
+    white-space: normal;
+    overflow: visible;
+    clip-path: none;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* The main pop effect */
+    animation: pop-in 0.3s ease;
+}
+@keyframes pop-in {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-50%) scale(1);
+    }
+}
+
+:focus {
+    outline: 2px solid var(--accent-color, #333);
+    outline-offset: 2px;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+    }
+}

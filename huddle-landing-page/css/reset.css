@@ -1,0 +1,35 @@
+* , *::after , *::before {
+    box-sizing: border-box;
+}
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd, ul, ol {
+    margin: 0;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, button, label, input {
+    line-height: 1.1;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* use max-width: revert when overriding restrictive image styles */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+ul , ol {
+    padding: 0;
+}
