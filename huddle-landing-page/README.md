@@ -38,17 +38,21 @@ This is a solution to the [Huddle landing page with single introductory section 
 ### 📷 Screenshots
 
 #### 🎬 Preview
-
+Add
 - Desktop 
+
 ![](screenshots/preview-desktop.webp)
 
 - Tablet 
+
 ![](screenshots/preview-tablet.webp)
 
 - Mobile 
+
 ![](screenshots/preview-mobile.webp)
 
 - Zoom - 150%
+
 ![](screenshots/preview-zoom.webp)
 
 #### 📊 Accessibility Report
