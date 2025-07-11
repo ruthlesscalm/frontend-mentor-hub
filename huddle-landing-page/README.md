@@ -19,8 +19,10 @@ This is a solution to the [Huddle landing page with single introductory section 
       - [📊 Accessibility Report](#-accessibility-report)
   - [📌 Tech Stacks](#-tech-stacks)
   - [🛠️ Tools](#️-tools)
-  - [🤝 Credits / 📚 References](#-credits---references)
-  - [Author](#author)
+  - [📚 Credits /  References](#-credits---references)
+  - [👤 Author](#-author)
+  - [🤝 Constributing](#-constributing)
+  - [📄 License](#-license)
     
 
 
@@ -72,7 +74,7 @@ Add
 - [Svg Repo](https://www.svgrepo.com/) - Customisable icons in various formats and size (svg and png)
 - [squoosh](https://squoosh.app/) - Convertion of image files (png, jpeg, avif, webp etc)
 
-## 🤝 Credits / 📚 References
+## 📚 Credits /  References
 
 - [Joshua Comeau](https://www.joshwcomeau.com/)
     - [Shadow pallete](https://www.joshwcomeau.com/shadow-palette/)
@@ -83,8 +85,16 @@ Add
 - [Tobias Ahlin Bjerrome](https://tobiasahlin.com/)
     - [Box shadow techniques](https://tobiasahlin.com/blog/layered-smooth-box-shadows/)
 
-## Author
+## 👤 Author
 
 - Github - [Ruthless Calm](https://github.com/ruthless-calm)
 - Frontend Mentor - [Ruthless Calm](https://www.frontendmentor.io/profile/ruthless-calm)
 
+## 🤝 Constributing
+
+Pull req are welcome. For major changes, open an issue first.
+
+## 📄 License
+
+This project is licensed under the [MIT License](../LICENSE).  
+You're free to use, modify, and distribute with credit to **Ruthless Calm**.
