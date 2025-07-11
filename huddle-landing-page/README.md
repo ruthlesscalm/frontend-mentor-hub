@@ -4,7 +4,7 @@
 This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0).
 
 ## 🔗 Links 
-- Solution URL: [Frontend Mentor]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/-built-to-impress-400400-accessibility-and-clamp-magic-BTrnYRoOa0)
 - Live Site URL: [Huddle Landing Page](https://ruthless-calm.github.io/frontend-mentor-projects/huddle-landing-page/)
 
 ## 🔍 Table of contents
