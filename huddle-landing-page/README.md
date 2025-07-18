@@ -1,5 +1,5 @@
 # 🚀 Frontend Mentor - Huddle Landing Page
-"A sleek landing page built with HTML and CSS"
+"A sleek and modern responsive landing page built with semantic HTML and accessible, modular CSS"
 
 This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0).
 
@@ -17,16 +17,14 @@ This is a solution to the [Huddle landing page with single introductory section 
     - [📷 Screenshots](#-screenshots)
       - [🎬 Preview](#-preview)
       - [📊 Accessibility Report](#-accessibility-report)
+  - [📦 Features](#-features)
   - [📌 Tech Stacks](#-tech-stacks)
   - [🛠️ Tools](#️-tools)
   - [📚 Credits /  References](#-credits---references)
   - [👤 Author](#-author)
-  - [🤝 Constributing](#-constributing)
+  - [🤝 Contributing](#-contributing)
   - [📄 License](#-license)
     
-
-
-
 
 ## 📔 Overview
 
@@ -35,31 +33,37 @@ This is a solution to the [Huddle landing page with single introductory section 
 - Build landing page using HTML and CSS
 - Should be responsive
 - Should be interactive ( hover states , focus states etc)
-- excel at Web Accessibility
+- Ensure Strong Web Accessibility
 
 ### 📷 Screenshots
 
 #### 🎬 Preview
-Add
-- Desktop 
+
+- **Desktop** 
 
 ![](screenshots/preview-desktop.webp)
 
-- Tablet 
+- **Tablet** 
 
 ![](screenshots/preview-tablet.webp)
 
-- Mobile 
+- **Mobile** 
 
 ![](screenshots/preview-mobile.webp)
 
-- Zoom - 150%
+- **Zoom - 150%**
 
 ![](screenshots/preview-zoom.webp)
 
 #### 📊 Accessibility Report
 
 ![](screenshots/Accessibility-report.webp)
+
+## 📦 Features
+
+- Fully fluid and responsive layout (280px to 1920px)
+- Custom box shadows using CSS variables
+- Web-accessible (focus states , semantic Html , screen reader friendly)
 
 ## 📌 Tech Stacks
 
@@ -69,10 +73,10 @@ Add
 ## 🛠️ Tools
 
 - [Google Fonts](https://fonts.google.com/selection?preview.text=Nature) - Fonts (CDN and ttf files)
-- [Transfonter](https://transfonter.org/) - Convertion of font files (ttf, woff, woff2, eot, svg) and font face generator
-- [Real Favicon Generator](https://realfavicongenerator.net) - Generate mutiple format favicons and customize site.webmanifest
+- [Transfonter](https://transfonter.org/) - Conversion of font files (ttf, woff, woff2, eot, svg) and font face generator
+- [Real Favicon Generator](https://realfavicongenerator.net) - Generate mutiple-format favicons and customize site.webmanifest
 - [Svg Repo](https://www.svgrepo.com/) - Customisable icons in various formats and size (svg and png)
-- [squoosh](https://squoosh.app/) - Convertion of image files (png, jpeg, avif, webp etc)
+- [squoosh](https://squoosh.app/) - Conversion of image files (png, jpeg, avif, webp etc)
 
 ## 📚 Credits /  References
 
@@ -90,7 +94,7 @@ Add
 - Github - [Ruthless Calm](https://github.com/ruthless-calm)
 - Frontend Mentor - [Ruthless Calm](https://www.frontendmentor.io/profile/ruthless-calm)
 
-## 🤝 Constributing
+## 🤝 Contributing
 
 Pull req are welcome. For major changes, open an issue first.
 
