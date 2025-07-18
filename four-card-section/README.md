@@ -40,25 +40,29 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 #### 🎬 Preview
 
-- **Desktop** 
+- **Desktop Light** 
 
-![](screenshots/preview-desktop.webp)
+![](screenshots/desktop-light.webp)
+
+- **Desktop Dark** 
+
+![](screenshots/desktop-dark.webp)
 
 - **Tablet** 
 
-![](screenshots/preview-tablet.webp)
+![](screenshots/tablet-light.webp)
 
 - **Mobile** 
 
-![](screenshots/preview-mobile.webp)
+![](screenshots/mobile-light.webp)
 
 - **Zoom - 150%**
 
-![](screenshots/preview-zoom.webp)
+![](screenshots/zoom.webp)
 
 #### 📊 Accessibility Report
 
-![](screenshots/Accessibility-report.webp)
+![](screenshots/accessibility.webp)
 
 ## 📦 Features
 

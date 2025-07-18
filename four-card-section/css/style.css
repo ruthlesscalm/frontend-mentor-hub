@@ -81,7 +81,7 @@ main {
 }
 .intro-container h1 {
     font-weight: 200;
-    font-size: clamp(25px , 3.3vw , 40px);
+    font-size: clamp(1.5625rem , 3.3vw , 2.5rem);
     text-align: center;
     line-height: 1.3;
     display: flex;
@@ -92,7 +92,7 @@ main {
 }
 .intro-container p{
     text-align: center;
-    font-size: clamp(14px , 1.7vw , 20px);
+    font-size: clamp(0.875rem , 1.7vw , 1.25rem);
 }
 .four-card-container {
     display: grid;
@@ -114,11 +114,11 @@ main {
     gap: 15px;
 }
 .card h2 {
-    font-size: clamp(17px , 2.5vw , 30px);
+    font-size: clamp(1.0625rem , 2.5vw , 1.875rem);
     font-weight: 600;
 }
 .card p{
-    font-size: clamp(13px , 1.5vw , 17px);
+    font-size: clamp(0.8125rem , 1.5vw , 1.0625rem);
 }
 .card figure {
     display: grid;
@@ -163,7 +163,7 @@ footer{
     gap: 5px;
 }
 .attributions p {
-    font-size: clamp(12px , 2vw , 24px);
+    font-size: clamp(0.75rem , 2vw , 1.5rem);
 }
 .attributions p a{
     text-decoration: none;
