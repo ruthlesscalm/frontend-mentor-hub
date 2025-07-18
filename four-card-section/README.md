@@ -1,5 +1,5 @@
 # 🚀 Frontend Mentor - Four Card Feature Section
-"A sleek and modern responsive landing page built with semantic HTML and accessible, modular CSS"
+"Four Card layout landing page that is responsive and accessible built with semantic HTML, modular CSS and Vanilla JS"
 
 This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
 
