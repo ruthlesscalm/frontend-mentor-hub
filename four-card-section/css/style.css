@@ -1,0 +1,245 @@
+@import url("reset.css");
+@import url("accessibility.css");
+
+:root {
+    --body-bgcolor: hsl(0, 0%, 100%);  /* White */
+    --body-color: hsl(0, 0%, 0%); /* Black */
+
+    --shadow-color: 0deg 0% 0%; /* Black */
+    --shadow-elevation-high: 0px 0.8px 0.9px hsl(var(--shadow-color) / 0.13),
+        0px 6.3px 7.1px -0.5px hsl(var(--shadow-color) / 0.13),
+        0px 13.3px 15px -1px hsl(var(--shadow-color) / 0.13);
+
+    --card-bgcolor : hsl(0, 0%, 100%);
+    --card-border-color : hsl(0, 0%, 90.2%);
+    --left-card-border-color: hsl(180, 62%, 55%);
+    --center-top-card-border-color: hsl(0, 78%, 62%);
+    --center-bottom-card-border-color: hsl(34, 97%, 64%);
+    --right-card-border-color: hsl(212, 86%, 64%);
+
+    --footer-links-color : hsl(248, 100%, 50%);
+    --footer-links-underline-color : hsl(0, 0%, 0%);
+}
+.dark-mode {
+    --body-bgcolor: hsl(0, 0%, 7.1%);  /* Black */
+    --body-color: hsl(0, 0%, 70.6%); /* white */
+
+    --shadow-color: 0deg 0% 100%; /* White */
+    --shadow-elevation-high: 0px 0.8px 0.9px hsl(var(--shadow-color) / 0.13),
+        0px 6.3px 7.1px -0.5px hsl(var(--shadow-color) / 0.13),
+        0px 13.3px 15px -1px hsl(var(--shadow-color) / 0.13);
+    
+    --card-bgcolor : hsl(0, 1.9%, 10.4%);
+    --card-border-color : hsl(0, 0%, 25.5%);
+    --footer-links-color : hsl(180, 100%, 44%);
+    --footer-links-underline-color : hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: var(--body-bgcolor);
+    color: var(--body-color);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: clamp(10px , 2vw , 30px) clamp(30px , 8vw , 150px);
+}
+header img{
+    cursor: pointer;
+    width: clamp(32px , 4.5vw , 64px);
+}
+header img:hover{
+    scale: 1.1;
+}
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: clamp(10px , 3.5vw , 60px) 0;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    width: 90%;
+    max-width: 1120px;
+}
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    width: 54.54%;
+    gap: 20px;
+}
+.intro-container h1 {
+    font-weight: 200;
+    font-size: clamp(25px , 3.3vw , 40px);
+    text-align: center;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+}
+.intro-container h1 span {
+    font-weight: 600;
+}
+.intro-container p{
+    text-align: center;
+    font-size: clamp(14px , 1.7vw , 20px);
+}
+.four-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 30px;
+    width: 100%;
+}
+.card {
+    border: 1px solid var(--card-border-color);
+    background-color: var(--card-bgcolor);
+    box-shadow: var(--shadow-elevation-high);
+    border-radius: 5px;
+    padding: 8.91%;
+    max-width: 450px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: max-content max-content auto;
+    gap: 15px;
+}
+.card h2 {
+    font-size: clamp(17px , 2.5vw , 30px);
+    font-weight: 600;
+}
+.card p{
+    font-size: clamp(13px , 1.5vw , 17px);
+}
+.card figure {
+    display: grid;
+    width: 100%;
+}
+.card figure img {
+    align-self: center;
+    justify-self: flex-end;
+    width: 22.5%;
+    height: auto;
+}
+.right-card , .left-card {
+    height: calc((100% - 30px)/2);
+    align-self: center;
+}
+.left-card {
+    border-top: 4px solid var(--left-card-border-color);
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.right-card {
+    border-top: 4px solid var(--right-card-border-color);
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+.center-top-card {
+    border-top: 4px solid var(--center-top-card-border-color);
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.center-bottom-card {
+    border-top: 4px solid var(--center-bottom-card-border-color);
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+footer{
+    padding: 60px 0;
+}
+.attributions {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.attributions p {
+    font-size: clamp(12px , 2vw , 24px);
+}
+.attributions p a{
+    text-decoration: none;
+    color: var(--footer-links-color);
+}
+.attributions p a:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: var(--footer-links-underline-color);
+    display: inline-block;
+    scale: 1.05;
+}
+
+@media screen and (max-width:810px) {
+    .intro-container {
+        max-width: 397.583px;
+        width: 70vw;
+    }
+    .four-card-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .right-card , .left-card {
+        height: 100%;
+    }
+    .left-card {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .center-top-card {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .center-bottom-card {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .right-card {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .intro-container {
+        max-width: 397.583px;
+        width: 90vw;
+    }
+    .four-card-container {
+        grid-template-columns: 1fr;
+        width: 90%;
+        justify-items: center;
+    }
+    .card {
+        max-width: 350px;
+    }
+    .card figure img {
+        width: 17.875%;
+    }
+    .left-card {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .center-top-card {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .center-bottom-card {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .right-card {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .attributions {
+        flex-direction: column;
+        align-items: center;
+    }
+}
