@@ -3,7 +3,7 @@
 
 :root {
     --body-bgcolor: hsl(0, 0%, 100%);  /* White */
-    --body-color: hsl(234, 12%, 34%); /* Black */
+    --body-color: hsl(234, 12%, 34%); /* Grey */
 
     --shadow-color: 0deg 0% 0%; /* Black */
     --shadow-elevation-high: 0px 0.8px 0.9px hsl(var(--shadow-color) / 0.13),
