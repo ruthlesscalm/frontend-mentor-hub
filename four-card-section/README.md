@@ -5,7 +5,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## 🔗 Links 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/-400400-accessibility-clamp-magic-and-with-a-theme-switcher-JceynnMrQa)
-- Live Site URL: [Four Card Section](https://ruthless-calm.github.io/frontend-mentor-projects/four-card-section/)
+- Live Site URL: [Four Card Section](https://ruthlesscalm.github.io/frontend-mentor-projects/four-card-section/)
 
 ## 🔍 Table of contents
 
@@ -98,8 +98,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## 👤 Author
 
-- Github - [Ruthless Calm](https://github.com/ruthless-calm)
-- Frontend Mentor - [Ruthless Calm](https://www.frontendmentor.io/profile/ruthless-calm)
+- Github - [Ruthless Calm](https://github.com/ruthlesscalm)
+- Frontend Mentor - [Ruthless Calm](https://www.frontendmentor.io/profile/ruthlesscalm)
 
 ## 🤝 Contributing
 
