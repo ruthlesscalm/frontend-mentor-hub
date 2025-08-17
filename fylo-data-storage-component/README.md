@@ -40,23 +40,23 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 
 - **Desktop** 
 
-![]()
+![](./screenshots/desktop.webp)
 
 - **Tablet** 
 
-![]()
+![](./screenshots/tablet.webp)
 
 - **Mobile** 
 
-![]()
+![](./screenshots/mobile.webp)
 
 - **Zoom - 150%**
 
-![]()
+![](./screenshots/zoom.webp)
 
 #### 📊 Accessibility Report
 
-![]()
+![](./screenshots/accessibility.webp)
 
 ## 📦 Features
 
