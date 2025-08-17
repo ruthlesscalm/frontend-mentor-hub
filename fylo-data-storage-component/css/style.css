@@ -79,6 +79,10 @@ main {
     background-color: var(--upload_icons--bg-color);
     cursor: pointer;
 }
+.storage__uploads div img {
+    width: auto;
+    height: auto;
+}
 
 .storage__right {
     display: flex;
@@ -95,7 +99,7 @@ main {
     width: 100%;
     padding: 30px 50px;
     padding-bottom: 40px;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 .storage__used span {
     font-weight: 700;
@@ -115,7 +119,7 @@ main {
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 700;
     transform: translateY(150%);
 }
@@ -124,7 +128,7 @@ main {
     position: absolute;
     bottom: 0;
     right: 0;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 700;
     transform: translateY(150%);
 }
@@ -171,13 +175,13 @@ main {
     align-items: center;
     gap: 10px;
     color: var(--popup-p--color);
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 700;
     flex-wrap: nowrap;
 }
 .pop-up p span {
     color: var(--popup-span--color);
-    font-size: 42px;
+    font-size: 2.625rem;
 }
 .attributions {
     display: flex;
