@@ -1,13 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fylo data storage component</title>
+    <meta name="description" content="Fylo data storage component landing page">
+
+
+    <meta property="og:title" content="Fylo data storage component">
+    <meta property="og:description" content="Fylo data storage component landing page">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon and App Icons -->
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Huddle">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <link rel="preload" href="./assets/fonts/Raleway-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/fonts/Raleway-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
+
 <body>
-    <main>
-        
+
+    <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
+
+    <main id="main">
+        <section class="storage">
+            <div class="storage__left">
+                <div class="storage__title">
+                    <img class="storage__logo" src="./assets/images/logo.svg"
+                        alt="multiple squares stacked on top of each other">
+                </div>
+                <div class="storage__uploads">
+                    <div class="storage__file-img">
+                        <img src="./assets/images/icon-document.svg" alt="Document icon">
+                    </div>
+                    <div class="storage__folder-img">
+                        <img src="./assets/images/icon-folder.svg" alt="Folder icon">
+                    </div>
+                    <div class="storage__upload-img">
+                        <img src="./assets/images/icon-upload.svg" alt="Upload icon">
+                    </div>
+                </div>
+            </div>
+            <div class="storage__right">
+                <div class="storage__right-wrapper">
+                    <p class="storage__used">You have used <span>815GB</span> of your storage</p>
+                    <div class="storage__progress">
+                        <div class="storage__progress-bar" id="fill">
+                            <div class="storage__progress-fill" ></div>
+                        </div>
+                    </div>
+                    <div class="pop-up">
+                        <p><span>185</span> GB LEFT</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="attributions">
+            <p>Challenge by <a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK" target="_blank" rel="noopener noreferrer" aria-label="Open Frontend Mentor Challenge in new tab" title="Frontend Mentor Challenge page">Frontend Mentor.</a></p>
+            <p>Coded by <a href="https://github.com/ruthlesscalm" target="_blank" rel="noopener noreferrer" aria-label="Open Github Profile in new tab" title="Github - Ruthless Calm">Ruthless Calm.</a></p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>
