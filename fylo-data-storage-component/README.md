@@ -4,7 +4,7 @@
 This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n).
 
 ## 🔗 Links 
-- Solution URL: [Frontend Mentor]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/-built-to-impress-400400-accessibility-and-progress-bar-timeout-9ho8s2LCci)
 - Live Site URL: [Fylo data storage component](https://ruthlesscalm.github.io/frontend-mentor-projects/fylo-data-storage-component/)
 
 ## 🔍 Table of contents
