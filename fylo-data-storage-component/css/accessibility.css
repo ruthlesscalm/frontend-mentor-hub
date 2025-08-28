@@ -15,6 +15,15 @@
 .skip-link {
     top: 0;
     left: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0;
+    margin: -1px;
+    border: 0;
+    clip-path: inset(50%);
 }
 .skip-link:focus {
     position: fixed;
