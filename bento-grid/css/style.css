@@ -293,7 +293,7 @@ footer{
     scale: 1.05;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
     .bento {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;

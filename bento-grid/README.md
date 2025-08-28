@@ -4,8 +4,8 @@
 This is a solution to the [Bento Grid challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj).
 
 ## 🔗 Links 
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [Bento Grid]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/-pixel-perfect-fluid-bento-grid-and-398400-accessibility-VvP0mgxd0w)
+- Live Site URL: [Bento Grid](https://ruthlesscalm.github.io/frontend-mentor-projects/bento-grid/)
 
 ## 🔍 Table of contents
 
@@ -40,23 +40,23 @@ This is a solution to the [Bento Grid challenge on Frontend Mentor](https://www.
 
 - **Desktop** 
 
-![]()
+![](./screenshots/desktop.webp)
 
 - **Tablet** 
 
-![]()
+![](./screenshots/tablet.webp)
 
 - **Mobile** 
 
-![]()
+![](./screenshots/mobile.webp)
 
 - **Zoom - 150%**
 
-![]()
+![](./screenshots/zoom.webp)
 
 #### 📊 Accessibility Report
 
-![]()
+![](./screenshots/accessibility.webp)
 
 ## 📦 Features
 
