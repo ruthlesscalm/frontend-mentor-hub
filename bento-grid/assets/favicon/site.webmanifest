@@ -1,6 +1,6 @@
 {
-  "name": "Four Card Section",
-  "short_name": "Four Card",
+  "name": "Bento Grid",
+  "short_name": "bento Grid",
   "icons": [
     {
       "src": "/assets/favicons/web-app-manifest-192x192.png",
