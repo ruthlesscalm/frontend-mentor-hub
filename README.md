@@ -10,6 +10,7 @@ This repository contains my personal solutions to frontend mentor challenges/pro
     - [Huddle Landing Page](#huddle-landing-page)
     - [Four Card Section](#four-card-section)
     - [Fylo Data Storage Component](#fylo-data-storage-component)
+    - [Bento Grid](#bento-grid)
   - [📄 License](#-license)
   
 ## 🔗 Links 
@@ -28,6 +29,11 @@ This repository contains my personal solutions to frontend mentor challenges/pro
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/-built-to-impress-400400-accessibility-and-progress-bar-timeout-9ho8s2LCci)
 - Live Site URL: [Four Card Section](https://ruthlesscalm.github.io/frontend-mentor-projects/fylo-data-storage-component/)
+
+### Bento Grid
+
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/-pixel-perfect-fluid-bento-grid-and-398400-accessibility-VvP0mgxd0w)
+- Live Site URL: [Bento Grid](https://ruthlesscalm.github.io/frontend-mentor-projects/bento-grid/)
 
 ## 📄 License
 
