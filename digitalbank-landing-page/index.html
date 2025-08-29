@@ -22,11 +22,39 @@
     <meta name="apple-mobile-web-app-title" content="Digital bank">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
 
-    
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/accessibility.css">
+    <link rel="stylesheet" href="./css/header.css">
 </head>
 
 <body>
-    
+    <header class="header">
+        <div class="header__logo">
+            <a href="#" class="header__logo-link">
+                <img src="./assets/images/logo-dark.svg" alt="3 slanting rectangles with the text Digital Bank" class="header__logo-image">
+            </a>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Home</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">About</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Contact</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Blog</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link header__nav-link--button">Careers</a></li>
+            </ul>
+        </nav>
+        <div class="header__invite">
+            <a href="#" class="header__invite-link">Request Invite</a>
+        </div>
+        <div class="header__theme">
+            <button class="header__theme-button" aria-label="Toggle Dark Mode">
+                <span class="header__theme-circle">
+                    <img src="./assets/images/moon.svg" alt="moon icon" class="header__theme-icon">
+                </span>
+            </button>
+        </div>
+    </header>
 </body>
 
 </html>
