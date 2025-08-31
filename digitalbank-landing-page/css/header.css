@@ -1,7 +1,16 @@
 :root {
     --header-bg-color: hsl(0, 100%, 100%);
     --header__nav-link--color: hsl(233, 8%, 62%);
-    --header__invite-link--bg-color: linear-gradient(5deg,rgba(44, 182, 216, 1) 0%, rgba(50, 210, 93, 1) 70%);
+    --header__invite-link--bg-color: linear-gradient(
+        5deg,
+        rgba(44, 182, 216, 1) 0%,
+        rgba(50, 210, 93, 1) 70%
+    );
+    --header__nav-link--hover-underline-color: linear-gradient(
+        90deg,
+        rgba(44, 182, 216, 1) 0%,
+        rgba(50, 210, 93, 1) 70%
+    );
 }
 .header {
     display: flex;
@@ -11,7 +20,7 @@
     background-color: var(--header-bg-color);
 }
 .header__logo-image {
-    width: clamp(180px, 12.5vw , 250px);
+    width: clamp(180px, 12.5vw, 250px);
 }
 .header__nav-list {
     display: flex;
@@ -21,10 +30,31 @@
     list-style: none;
 }
 .header__nav-link {
-    font-size: clamp(16px, 1.111vw , 20px);
+    font-size: clamp(16px, 1.111vw, 20px);
     font-weight: 500;
     color: var(--header__nav-link--color);
     text-decoration: none;
+    position: relative;
+}
+.header__nav-link::after,
+.header__nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    background-image: var(--header__nav-link--hover-underline-color);
+    transition-duration: 0.5s;
+}
+.header__nav-link::before {
+    left: 50%;
+}
+.header__nav-link::after {
+    right: 50%;
+}
+.header__nav-item:hover .header__nav-link::after,
+.header__nav-item:hover .header__nav-link::before {
+    width: 50%;
 }
 .header__right-wrapper {
     display: flex;
@@ -58,5 +88,30 @@
     background-color: rgb(255, 174, 0);
 }
 .header__theme-icon {
-    width: clamp(20px, 1.5vw ,30px);
+    width: clamp(20px, 1.5vw, 30px);
+}
+
+@media screen and (max-width: 1439px) {
+    .header {
+        padding: 20px clamp(50px, 6.94444vw, 100px);
+    }
+    .header__logo-image {
+        width: clamp(150px, 15vw, 180px);
+    }
+    .header__nav-link {
+        font-size: clamp(0.875rem, 1.4vw, 1rem);
+    }
+    .header__right-wrapper {
+        gap: clamp(10px, 1vw, 20px);
+    }
+    .header__invite-link {
+        padding: clamp(12px, 1.2vw, 15px) clamp(25px, 2.5vw, 35px);
+        font-size: clamp(0.875rem, 1.4vw, 1rem);
+    }
+    .header__theme-button {
+        width: clamp(70px, 7vw, 80px);
+    }
+    .header__theme-icon {
+        width: clamp(17px, 1.7vw, 21.585px);
+    }
 }
