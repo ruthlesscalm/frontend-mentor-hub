@@ -90,6 +90,38 @@
 .header__theme-icon {
     width: clamp(20px, 1.5vw, 30px);
 }
+.header__menu {
+    display: none;
+    align-items: center;
+}
+.header__menu:hover {
+    scale: 1.1;
+}
+.header__menu-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.header__menu-icon {
+    width: auto;
+    height: 25px;
+    aspect-ratio: 3/2;
+}
+.header__menu-icon line {
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    transform-origin: center;
+}
+.header__menu-icon--cross line:nth-child(1) {
+    transform: translateX(-12.5%) translateY(4.5px) rotate(45deg);
+}
+
+.header__menu-icon--cross line:nth-child(2) {
+    opacity: 0;
+}
+
+.header__menu-icon--cross line:nth-child(3) {
+    transform: translateX(-12.5%) translateY(-4.5px) rotate(-45deg);
+}
 
 @media screen and (max-width: 1439px) {
     .header {
@@ -113,5 +145,62 @@
     }
     .header__theme-icon {
         width: clamp(17px, 1.7vw, 21.585px);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header {
+        padding: 20px clamp(50px, 6.173vw, 65px);
+    }
+    .header__nav-link {
+        font-size: clamp(0.75rem, 1.48vw, 0.875rem);
+    }
+    .header__invite-link {
+        padding: clamp(10px, 1.2345679vw, 12px) clamp(18px, 2.2345679vw, 25px);
+        font-size: clamp(0.6875rem, 1.358vw, 0.875rem);
+    }
+    .header__theme-button {
+        width: clamp(50px, 6.173vw, 70px);
+        padding: clamp(3px, 0.37vw, 4px);
+    }
+    .header__theme-icon {
+        width: clamp(12px, 1.5vw, 17px);
+    }
+    .header__theme-circle {
+        padding: clamp(5px, 0.62vw, 7px);
+    }
+}
+
+@media screen and (max-width: 809px) {
+    .header {
+        padding: 20px clamp(20px, 7.143vw, 60px);
+    }
+    .header__logo-image {
+        width: clamp(120px, 42.85vw, 150px);
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__right-wrapper {
+        gap: clamp(10px, 1.854vw, 15px);
+    }
+    .header__invite-link {
+        display: none;
+    }
+    .header__menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header__theme-button {
+        width: clamp(40px, 11.25vw, 50px);
+        padding: clamp(2px, 0.714vw, 3px);
+    }
+    .header__theme-circle {
+        padding: clamp(3px, 1.071vw, 5px);
+    }
+    .header__menu-icon {
+        height: clamp(20px, 6.25vw, 25px);
     }
 }
