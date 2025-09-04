@@ -174,12 +174,20 @@
 @media screen and (max-width: 809px) {
     .header {
         padding: 20px clamp(20px, 7.143vw, 60px);
+        position: relative;
     }
     .header__logo-image {
         width: clamp(120px, 42.85vw, 150px);
     }
     .header__nav {
         display: none;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .header__nav-list {
+        flex-direction: column;
     }
     .header__right-wrapper {
         gap: clamp(10px, 1.854vw, 15px);
