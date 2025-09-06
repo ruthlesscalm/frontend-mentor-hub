@@ -28,13 +28,15 @@
     <link rel="stylesheet" href="./css/accessibility.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/hero.css">
 </head>
 
 <body>
     <header class="header">
         <div class="header__logo">
             <a href="#" class="header__logo-link">
-                <img src="./assets/images/logo-dark.svg" alt="3 slanting rectangles with the text Digital Bank" class="header__logo-image">
+                <img src="./assets/images/logo-dark.svg" alt="3 slanting rectangles with the text Digital Bank"
+                    class="header__logo-image">
             </a>
         </div>
         <nav class="header__nav" id="nav-box">
@@ -43,7 +45,8 @@
                 <li class="header__nav-item"><a href="#" class="header__nav-link">About</a></li>
                 <li class="header__nav-item"><a href="#" class="header__nav-link">Contact</a></li>
                 <li class="header__nav-item"><a href="#" class="header__nav-link">Blog</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link header__nav-link--button">Careers</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link header__nav-link--button">Careers</a>
+                </li>
             </ul>
         </nav>
         <div class="header__right-wrapper">
@@ -59,15 +62,31 @@
             </div>
             <div class="header__menu">
                 <button class="header__menu-button" id="menu-button" aria-label="Open Menu">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10" class="header__menu-icon" id="menu-icon">
-                        <line x1="0" y1="0" x2="20" y2="0" stroke="#000000" stroke-width="1"/>
-                        <line x1="0" y1="5" x2="20" y2="5" stroke="#6b6f8f" stroke-width="1"/>
-                        <line x1="0" y1="10" x2="20" y2="10" stroke="#000000" stroke-width="1"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10" class="header__menu-icon"
+                        id="menu-icon">
+                        <line x1="0" y1="0" x2="20" y2="0" stroke="#000000" stroke-width="1" />
+                        <line x1="0" y1="5" x2="20" y2="5" stroke="#6b6f8f" stroke-width="1" />
+                        <line x1="0" y1="10" x2="20" y2="10" stroke="#000000" stroke-width="1" />
                     </svg>
                 </button>
             </div>
         </div>
     </header>
+    <main>
+        <section class="hero">
+            <div class="hero__info">
+                <h1 class="hero__heading">Next generation digital banking</h1>
+                <p class="hero__details">Take your financial life online. Your Digitalbank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
+                <div class="hero__invite">
+                    <a href="#" class="hero__invite-link">Request Invite</a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="./assets/images/image-mockups.png" alt="mobile and desktop screens showing the application"
+                    class="hero__image-app">
+            </div>
+        </section>
+    </main>
     <script src="./js/header.js" defer></script>
 </body>
 

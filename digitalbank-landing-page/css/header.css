@@ -2,25 +2,25 @@
     --header-bg-color: hsl(0, 100%, 100%);
     --header__nav-link--color: hsl(233, 8%, 62%);
     --header__invite-link--bg-color: linear-gradient(
-        5deg,
+        10deg,
         rgba(44, 182, 216, 1) 0%,
-        rgba(50, 210, 93, 1) 70%
+        rgba(50, 210, 93, 1) 100%
     );
     --header__nav-link--hover-underline-color: linear-gradient(
-        90deg,
+        10deg,
         rgba(44, 182, 216, 1) 0%,
-        rgba(50, 210, 93, 1) 70%
+        rgba(50, 210, 93, 1) 100%
     );
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px clamp(100px, 7.8125vw, 200px);
+    padding: 20px 70px 20px 150px;
     background-color: var(--header-bg-color);
 }
 .header__logo-image {
-    width: clamp(180px, 12.5vw, 250px);
+    width: max(160px, 11.111111vw);
 }
 .header__nav-list {
     display: flex;
@@ -30,7 +30,7 @@
     list-style: none;
 }
 .header__nav-link {
-    font-size: clamp(16px, 1.111vw, 20px);
+    font-size: max(0.875rem, 0.972222222vw);
     font-weight: 500;
     color: var(--header__nav-link--color);
     text-decoration: none;
@@ -40,7 +40,7 @@
 .header__nav-link::before {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: -33px;
     width: 0;
     height: 4px;
     background-image: var(--header__nav-link--hover-underline-color);
@@ -62,9 +62,10 @@
     gap: 20px;
 }
 .header__invite-link {
+    display: inline-block;
     padding: clamp(15px, 0.95vw, 18px) clamp(35px, 2.0833vw, 40px);
     border-radius: 50px;
-    font-size: clamp(1rem, 1.111vw, 1.125rem);
+    font-size: max(0.875rem, 0.972222222vw);
     font-weight: 700;
     color: white;
     text-decoration: none;
@@ -125,20 +126,10 @@
 
 @media screen and (max-width: 1439px) {
     .header {
-        padding: 20px clamp(50px, 6.94444vw, 100px);
-    }
-    .header__logo-image {
-        width: clamp(150px, 15vw, 180px);
-    }
-    .header__nav-link {
-        font-size: clamp(0.875rem, 1.4vw, 1rem);
+        padding: 20px min(4.861111vw, 70px) 20px min(10.416666vw, 150px);
     }
     .header__right-wrapper {
         gap: clamp(10px, 1vw, 20px);
-    }
-    .header__invite-link {
-        padding: clamp(12px, 1.2vw, 15px) clamp(25px, 2.5vw, 35px);
-        font-size: clamp(0.875rem, 1.4vw, 1rem);
     }
     .header__theme-button {
         width: clamp(70px, 7vw, 80px);
@@ -148,16 +139,25 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .header {
+        padding: 20px min(4.861111vw, 58.3332px) 20px min(8.173vw, 100px);
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .header {
-        padding: 20px clamp(50px, 6.173vw, 65px);
+        padding: 20px min(3vw, 30px) 20px clamp(50px, 6.173vw, 65px);
+    }
+    .header__logo-image {
+        width: min(16vw, 160px);
     }
     .header__nav-link {
-        font-size: clamp(0.75rem, 1.48vw, 0.875rem);
+        font-size: min(1.4vw, 0.875rem);
     }
     .header__invite-link {
-        padding: clamp(10px, 1.2345679vw, 12px) clamp(18px, 2.2345679vw, 25px);
-        font-size: clamp(0.6875rem, 1.358vw, 0.875rem);
+        font-size: min(1.4vw, 0.875rem);
+        padding: clamp(12px, 1.2vw, 15px) clamp(25px, 2.5vw, 35px);
     }
     .header__theme-button {
         width: clamp(50px, 6.173vw, 70px);
@@ -171,9 +171,9 @@
     }
 }
 
-@media screen and (max-width: 809px) {
+@media screen and (max-width: 810px) {
     .header {
-        padding: 20px clamp(20px, 7.143vw, 60px);
+        padding: 20px clamp(20px, 3.7vw, 30px) 20px clamp(20px, 7.143vw, 60px);
         position: relative;
     }
     .header__logo-image {

@@ -1,0 +1,74 @@
+:root {
+    --hero--bg-color: hsl(0, 0%, 98%);
+    --hero__details--color: hsl(233, 8%, 62%);
+    --hero__invite-link--bg-color: linear-gradient(
+        10deg,
+        rgba(44, 182, 216, 1) 0%,
+        rgba(50, 210, 93, 1) 100%
+    );
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--hero--bg-color);
+    height: min(45.833333vw, 660px);
+}
+.hero__image {
+    background-image: url("../assets/images/bg-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 157% auto;
+    background-position: 10% 104%;
+    overflow: hidden;
+    margin-bottom: max(-85px, -5.903vw);
+    width: min(53.47vw, 770px);
+    flex-shrink: 0;
+}
+.hero__image-app {
+    transform: translateX(17%) translateY(-17%);
+}
+.hero__info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 clamp(100px, 6.94445vw, 150px) 0 150px;
+}
+.hero__heading {
+    font-size: min(3.889vw, 65px);
+    font-weight: 300;
+}
+.hero__details {
+    line-height: 1.5;
+    font-size: clamp(14px, 1.32vw, 24px);
+    color: var(--hero__details--color);
+}
+.hero__invite-link {
+    display: inline-block;
+    padding: clamp(15px, 0.95vw, 18px) clamp(35px, 2.0833vw, 40px);
+    border-radius: 50px;
+    font-size: max(0.875rem, 0.972222222vw);
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    background: var(--hero__invite-link--bg-color);
+}
+
+@media screen and (max-width: 1439px) {
+    .hero__heading {
+        font-size: min(3.5vw, 56px);
+    }
+    .hero__info {
+        padding: 0 min(5.21vw, 75px) 0 min(10.41667vw, 150px);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .hero__invite-link {
+        font-size: min(1.4vw, 0.875rem);
+        padding: clamp(12px, 1.2vw, 15px) clamp(25px, 2.5vw, 35px);
+    }
+    .hero__info {
+        gap: 20px;
+    }
+}
