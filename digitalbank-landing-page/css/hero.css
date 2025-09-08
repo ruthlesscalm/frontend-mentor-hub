@@ -53,6 +53,9 @@
     text-decoration: none;
     background: var(--hero__invite-link--bg-color);
 }
+.hero__invite-link:hover {
+    transform: scale(1.05);
+}
 
 @media screen and (max-width: 1439px) {
     .hero__heading {
@@ -70,5 +73,37 @@
     }
     .hero__info {
         gap: 20px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .hero {
+        flex-direction: column-reverse;
+        justify-content: stretch;
+        align-items: center;
+        height: auto;
+    }
+    .hero__image {
+        background-image: url("../assets/images/bg-intro-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 132%;
+        background-position: left 70%;
+        overflow: hidden;
+        margin-bottom: 0;
+        width: 100%;
+        aspect-ratio: 54/47;
+    }
+    .hero__image-app {
+        transform: translateX(5.25%) translateY(-29%);
+        width: 90%;
+        height: auto;
+    }
+    .hero__info {
+        padding: 0;
+        align-items: center;
+        gap: 30px;
+    }
+    .hero__details {
+        text-align: center;
     }
 }
