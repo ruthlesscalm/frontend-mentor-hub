@@ -1,3 +1,19 @@
 body {
     font-family: 'Public Sans', sans-serif;
 }
+main {
+    position: relative;
+}
+main::before {
+    content: "";
+    display: none;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+    pointer-events: none;
+    z-index: 9;
+}
+main.overlay::before {
+    display: block;
+    pointer-events: auto;
+}
