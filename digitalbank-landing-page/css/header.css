@@ -215,6 +215,7 @@
     }
     .header__nav-link {
         font-size: clamp(13px, 4.8vw, 18px);
+        font-size: 18px;
         color: hsl(225, 4%, 18%);
     }
     .header__nav-link::after,
@@ -242,5 +243,8 @@
     }
     .header__menu-icon {
         height: clamp(20px, 6.25vw, 25px);
+    }
+    .header__nav-link {
+        font-size: clamp(13px, 4.5vw, 18px);
     }
 }

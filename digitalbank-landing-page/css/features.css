@@ -1,0 +1,33 @@
+:root {
+    --features--bg-color: hsl(220, 16%, 96%);
+    --features__heading--color: hsl(0, 0%, 22%);
+    --features__details--color: hsl(233, 8%, 62%);
+    --features__list-heading--color: hsl(0, 0%, 22%);
+    --features__list-details--color: hsl(233, 8%, 62%);
+}
+
+.features {
+    background-color: var(--features--bg-color);
+    padding-top: min(85px, 5.903vw);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features__heading {
+    font-weight: 300;
+    font-size: 30px;
+    color: var(--features__heading--color);
+}
+.features__list {
+    display: flex;
+}
+.features__list-heading {
+    color: var(--features__list-heading--color);
+    font-weight: 300;
+}
+.features__details {
+    color: var(--features__details--color);
+}
+.features__list-details {
+    color: var(--features__list-details--color);
+}
