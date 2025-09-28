@@ -214,7 +214,6 @@
         justify-content: center;
     }
     .header__nav-link {
-        font-size: clamp(13px, 4.8vw, 18px);
         font-size: 18px;
         color: hsl(225, 4%, 18%);
     }
