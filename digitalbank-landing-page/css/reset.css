@@ -1,4 +1,6 @@
-* , *::after , *::before {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
 }
 html {
@@ -6,10 +8,29 @@ html {
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
 }
-body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd, ul, ol {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd,
+ul,
+ol {
     margin: 0;
 }
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     overflow-wrap: break-word;
 }
 
@@ -17,15 +38,23 @@ body {
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
 }
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
     font: inherit;
 }
 
 /* use max-width: revert when overriding restrictive image styles */
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
     display: block;
     max-width: 100%;
 }
-ul , ol {
+ul,
+ol {
     padding: 0;
 }

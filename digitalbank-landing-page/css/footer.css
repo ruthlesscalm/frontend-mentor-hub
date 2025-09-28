@@ -82,7 +82,7 @@
     transform: scale(1.05);
 }
 .footer__copyright {
-    font-size: clamp(12px, 0.972222222vw,16px );
+    font-size: clamp(12px, 0.972222222vw, 16px);
     color: var(--footer__copyright--color);
 }
 
