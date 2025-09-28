@@ -41,7 +41,7 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 9999;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* The main pop effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     animation: pop-in 0.3s ease;
 }
 @keyframes pop-in {

@@ -7,6 +7,7 @@
         rgba(44, 182, 216, 1) 0%,
         rgba(50, 210, 93, 1) 100%
     );
+    --hero__invite-link--color: hsl(0, 0%, 100%);
 }
 .hero {
     display: flex;
@@ -38,7 +39,7 @@
     border-radius: 50px;
     font-size: max(0.875rem, 0.972222222vw);
     font-weight: 700;
-    color: white;
+    color: var(--hero__invite-link--color);
     text-decoration: none;
     background: var(--hero__invite-link--bg-color);
 }
