@@ -8,26 +8,109 @@
 
 .features {
     background-color: var(--features--bg-color);
-    padding-top: min(85px, 5.903vw);
+    padding: min(100.8px, 7vw) 150px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 65px;
+}
+.features__info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 60%;
 }
 .features__heading {
     font-weight: 300;
-    font-size: 30px;
+    font-size: clamp(25px, 2.7778vw, 47px);
     color: var(--features__heading--color);
+}
+.features__details {
+    font-size: clamp(0.875rem, 1.25vw, 1.4rem);
+    line-height: 1.5;
 }
 .features__list {
     display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.features__list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 .features__list-heading {
     color: var(--features__list-heading--color);
     font-weight: 300;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+}
+.features__list-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 .features__details {
     color: var(--features__details--color);
 }
 .features__list-details {
     color: var(--features__list-details--color);
+    line-height: 1.6;
+    letter-spacing: -0.4px;
+    font-size: clamp(12.444px, 1.11vw, 20px);
+}
+
+@media screen and (max-width: 1439px) {
+    .features {
+        padding: min(100.8px, 7vw) min(10.41667vw, 150px);
+    }
+    .features__list {
+        flex-wrap: wrap;
+    }
+    .features__list-item {
+        width: calc(50% - 20px);
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .features {
+        padding: min(100.8px, 7vw) 18vw;
+        gap: 50px;
+    }
+    .features__info {
+        width: auto;
+    }
+    .features__heading {
+        font-size: clamp(14.3px, 8vw, 34px);
+        text-align: center;
+    }
+    .features__details {
+        font-size: clamp(13.5px, 3.3vw, 17px);
+    }
+    .features__list {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .features__list-details {
+        font-size: clamp(13px, 2.93333vw, 15.1111px);
+    }
+    .features__list-heading,
+    .features__list-details,
+    .features__details {
+        text-align: center;
+    }
+    .features__list-item {
+        width: auto;
+    }
+    .features__list-image-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .features {
+        padding: 10vw;
+    }
 }
