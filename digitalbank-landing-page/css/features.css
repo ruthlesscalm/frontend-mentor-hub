@@ -7,11 +7,11 @@
 }
 
 .features {
-    background-color: var(--features--bg-color);
-    padding: min(100.8px, 7vw) 150px;
     display: flex;
     flex-direction: column;
     gap: 65px;
+    padding: min(100.8px, 7vw) 150px;
+    background-color: var(--features--bg-color);
 }
 .features__info {
     display: flex;
@@ -21,7 +21,7 @@
 }
 .features__heading {
     font-weight: 300;
-    font-size: clamp(25px, 2.7778vw, 47px);
+    font-size: clamp(1.5625rem, 2.7778vw, 2.9375rem);
     color: var(--features__heading--color);
 }
 .features__details {
@@ -39,10 +39,10 @@
     gap: 40px;
 }
 .features__list-heading {
-    color: var(--features__list-heading--color);
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.5rem;
     letter-spacing: -0.5px;
+    color: var(--features__list-heading--color);
 }
 .features__list-info {
     display: flex;
@@ -53,10 +53,10 @@
     color: var(--features__details--color);
 }
 .features__list-details {
-    color: var(--features__list-details--color);
+    font-size: clamp(0.77775rem, 1.11vw, 1.25rem);
     line-height: 1.6;
     letter-spacing: -0.4px;
-    font-size: clamp(12.444px, 1.11vw, 20px);
+    color: var(--features__list-details--color);
 }
 
 @media screen and (max-width: 1439px) {
@@ -67,25 +67,25 @@
         flex-wrap: wrap;
     }
     .features__list-item {
-        width: calc(50% - 20px);
         gap: 40px;
+        width: calc(50% - 20px);
     }
 }
 
 @media screen and (max-width: 810px) {
     .features {
-        padding: min(100.8px, 7vw) 18vw;
         gap: 50px;
+        padding: min(100.8px, 7vw) 18vw;
     }
     .features__info {
         width: auto;
     }
     .features__heading {
-        font-size: clamp(14.3px, 8vw, 34px);
+        font-size: clamp(0.89375rem, 8vw, 2.125rem);
         text-align: center;
     }
     .features__details {
-        font-size: clamp(13.5px, 3.3vw, 17px);
+        font-size: clamp(0.84375rem, 3.3vw, 1.0625rem);
     }
     .features__list {
         flex-wrap: nowrap;
@@ -93,7 +93,7 @@
         align-items: center;
     }
     .features__list-details {
-        font-size: clamp(13px, 2.93333vw, 15.1111px);
+        font-size: clamp(0.8125rem, 2.93333vw, 0.94444375rem);
     }
     .features__list-heading,
     .features__list-details,
