@@ -1,0 +1,99 @@
+:root {
+    --articles--bg-color: hsl(0, 0%, 98%);
+    --articles__list-bg-color: hsl(0, 100%, 100%);
+    --articles__heading--color: hsl(0, 0%, 22%);
+    --articles__list-details--color: hsl(233, 8%, 62%);
+    --articles__list-heading--color: hsl(0, 0%, 22%);
+
+    --shadow-color: 0deg 0% 79%;
+    --shadow-elevation-low: 0.1px 1px 0.8px hsl(var(--shadow-color) / 0.33),
+        0.2px 1.3px 1px -2.5px hsl(var(--shadow-color) / 0.22),
+        0.4px 3px 2.3px -5px hsl(var(--shadow-color) / 0.11);
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: min(100.8px, 7vw) 150px;
+    background-color: var(--articles--bg-color);
+}
+.articles__heading {
+    font-size: clamp(25px, 2.7778vw, 47px);
+    font-weight: 300;
+    color: var(--articles__heading--color);
+}
+.articles__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+}
+.articles__list-item {
+    border-radius: 7px;
+    background-color: var(--articles__list-bg-color);
+    box-shadow: var(--shadow-elevation-low);
+}
+.articles__list-image {
+    max-width: revert;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.28/1;
+    border-radius: 7px 7px 0 0;
+    object-fit: cover;
+}
+.articles__list-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.articles__list-heading {
+    font-size: 1.0625rem;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    color: var(--articles__list-heading--color);
+}
+.articles__list-author {
+    font-size: max(0.75rem, 0.83333333vw);
+    padding-bottom: 5px;
+}
+.articles__list-details {
+    font-size: 0.9375rem;
+    line-height: 1.1;
+}
+.articles__list-author,
+.articles__list-details {
+    letter-spacing: -0.4px;
+    color: var(--articles__list-details--color);
+}
+
+@media screen and (max-width: 1439px) {
+    .articles {
+        padding: min(100.8px, 7vw) min(10.41667vw, 150px);
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .articles__list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .articles {
+        gap: 50px;
+        padding: min(100.8px, 7vw) 18vw;
+    }
+    .articles__heading {
+        font-size: clamp(0.89375rem, 8vw, 2.125rem);
+        text-align: center;
+    }
+    .articles__list {
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 500px) {
+    .articles {
+        padding: 10vw;
+    }
+}
