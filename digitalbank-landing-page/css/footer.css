@@ -83,6 +83,7 @@
 }
 .footer__invite-link:hover {
     transform: scale(1.05);
+    opacity: 0.8;
 }
 .footer__copyright {
     font-size: clamp(12px, 0.972222222vw, 16px);
