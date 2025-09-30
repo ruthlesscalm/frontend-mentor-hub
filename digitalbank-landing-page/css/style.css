@@ -17,6 +17,13 @@ main::before {
     );
     pointer-events: none;
 }
+main.main__dark-mode::before {
+    background: linear-gradient(
+        180deg,
+        rgba(66, 66, 66, 0.8) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
 main.overlay::before {
     display: block;
     pointer-events: auto;

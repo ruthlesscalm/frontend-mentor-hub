@@ -9,6 +9,11 @@
     );
     --hero__invite-link--color: hsl(0, 0%, 100%);
 }
+.hero__dark-mode {
+    --hero--bg-color: hsl(0, 0%, 5%);
+    --hero__heading--color: hsl(0, 0%, 92%);
+    --hero__details--color: hsl(233, 8%, 62%);
+}
 .hero {
     display: flex;
     justify-content: space-between;

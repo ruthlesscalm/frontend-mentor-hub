@@ -35,13 +35,13 @@
     <link rel="stylesheet" href="./css/credits.css">
 </head>
 
-<body>
+<body data-theme="light">
     <a class="skip-link" href="#main-content" aria-label="Skip to main content">Skip to main content</a>
     <header class="header">
         <div class="header__logo">
             <a href="#" class="header__logo-link">
                 <img src="./assets/images/logo-dark.svg" alt="3 slanting rectangles with the text Digital Bank"
-                    class="header__logo-image">
+                    class="header__logo-image" id="logo">
             </a>
         </div>
         <nav class="header__nav" id="nav-box">
@@ -59,9 +59,9 @@
                 <a href="#" class="header__invite-link">Request Invite</a>
             </div>
             <div class="header__theme">
-                <button class="header__theme-button" aria-label="Toggle Dark Mode">
-                    <span class="header__theme-circle">
-                        <img src="./assets/images/sun.svg" alt="sun icon" class="header__theme-icon">
+                <button id="theme-btn" class="header__theme-button" aria-label="Toggle Dark Mode">
+                    <span class="header__theme-circle" id="theme-circle">
+                        <img src="./assets/images/sun.svg" alt="sun icon" class="header__theme-icon" id="theme-icon">
                     </span>
                 </button>
             </div>
@@ -69,9 +69,9 @@
                 <button class="header__menu-button" id="menu-button" aria-label="Open Menu">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10" class="header__menu-icon"
                         id="menu-icon">
-                        <line x1="0" y1="0" x2="20" y2="0" stroke="#000000" stroke-width="1" />
-                        <line x1="0" y1="5" x2="20" y2="5" stroke="#6b6f8f" stroke-width="1" />
-                        <line x1="0" y1="10" x2="20" y2="10" stroke="#000000" stroke-width="1" />
+                        <line id="menu-line1" x1="0" y1="0" x2="20" y2="0" stroke="#000000" stroke-width="1" />
+                        <line id="menu-line2" x1="0" y1="5" x2="20" y2="5" stroke="#6b6f8f" stroke-width="1" />
+                        <line id="menu-line3" x1="0" y1="10" x2="20" y2="10" stroke="#000000" stroke-width="1" />
                     </svg>
                 </button>
             </div>
@@ -206,7 +206,7 @@
         </div>
         <div class="info__wrapper" id="info__wrapper">
             <button class="info__btn" id="info__btn">
-                <img class="info__image" src="./assets/images/info-light.svg" alt="info button">
+                <img id="info-image" class="info__image" src="./assets/images/info-dark.svg" alt="info button">
             </button>
         </div>
     </aside>
@@ -275,6 +275,7 @@
     </footer>
     <script src="./js/header.js" defer></script>
     <script src="./js/credit.js" defer></script>
+    <script src="./js/theme.js" defer></script>
 </body>
 
 </html>

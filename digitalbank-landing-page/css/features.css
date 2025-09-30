@@ -5,7 +5,13 @@
     --features__list-heading--color: hsl(0, 0%, 22%);
     --features__list-details--color: hsl(233, 8%, 62%);
 }
-
+.features__dark-mode {
+    --features--bg-color: hsl(0, 0%, 10%);
+    --features__heading--color: hsl(0, 0%, 90%);
+    --features__details--color: hsl(233, 8%, 62%);
+    --features__list-heading--color: hsl(0, 0%, 90%);
+    --features__list-details--color: hsl(233, 8%, 62%);
+}
 .features {
     display: flex;
     flex-direction: column;
