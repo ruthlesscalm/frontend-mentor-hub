@@ -11,6 +11,7 @@ This repository contains my personal solutions to frontend mentor challenges/pro
     - [Four Card Section](#four-card-section)
     - [Fylo Data Storage Component](#fylo-data-storage-component)
     - [Bento Grid](#bento-grid)
+    - [Digital Bank Landing Page](#digital-bank-landing-page)
   - [📄 License](#-license)
   
 ## 🔗 Links 
@@ -34,6 +35,11 @@ This repository contains my personal solutions to frontend mentor challenges/pro
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/-pixel-perfect-fluid-bento-grid-and-398400-accessibility-VvP0mgxd0w)
 - Live Site URL: [Bento Grid](https://ruthlesscalm.github.io/frontend-mentor-projects/bento-grid/)
+
+### Digital Bank Landing Page
+
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/-pixel-perfect-fluid-landing-page-and-395400-accessibility-S0TnVjsxuB)
+- Live Site URL: [Digital Bank Landing Page](https://ruthlesscalm.github.io/frontend-mentor-projects/digitalbank-landing-page/)
 
 ## 📄 License
 

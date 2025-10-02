@@ -1,10 +1,10 @@
 # 🚀 Frontend Mentor - Bento Grid
 "Digital Bank landing page made with HTML, CSS and JS"
 
-This is a solution to the [Digital Bank landing page challenge on Frontend Mentor]().
+This is a solution to the [Digital Bank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/digital-bank-landing-page-WaUhkoDN).
 
 ## 🔗 Links 
-- Solution URL: [Frontend Mentor]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/-pixel-perfect-fluid-landing-page-and-395400-accessibility-S0TnVjsxuB)
 - Live Site URL: [Digital Bank landing page](https://ruthlesscalm.github.io/frontend-mentor-projects/digitalbank-landing-page/)
 
 ## 🔍 Table of contents
@@ -41,23 +41,19 @@ This is a solution to the [Digital Bank landing page challenge on Frontend Mento
 
 - **Desktop** 
 
-![]()
+![](./screenshots/desktop.webp)
 
 - **Tablet** 
 
-![]()
+![](./screenshots/tablet.webp)
 
 - **Mobile** 
 
-![]()
-
-- **Zoom - 150%**
-
-![]()
+![](./screenshots/mobile.webp)
 
 #### 📊 Accessibility Report
 
-![]()
+![](./screenshots/accessibility.webp)
 
 ## 📦 Features
 
